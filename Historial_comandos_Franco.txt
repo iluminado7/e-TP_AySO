@@ -1,0 +1,86 @@
+ssh-keygen
+cat $HOME/.ssh/*.pub
+pwd
+cd ..
+cd /home/vagrant/.ssh/
+ll
+ls
+[200~cat id_rsa.pub
+~cat id_rsa.pub
+cat id_rsa.pub
+ssh -T git@github.com
+cd /home$/
+cd
+pwd
+ll
+cd /home/
+mkdir repogit
+mdkir repogit
+mkdir repogit
+cd 
+pwd
+ll
+cd repogit/
+git clone git@github.com:iluminado7/e-TP_AySO.git
+cd T
+ll
+cd / e-TP_AySO/
+pwd
+cd /home/vagrant/repogit/e-TP-AySo/
+ll
+cd e-TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i  Home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add.
+git --help
+git status
+git add .
+git config --global user.name "iluminado7"
+git config --global user.email "fdromero01@gmail.com"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+git commit -m “feat: Añadiendo información de CPU”
+git commit -m "feat: anadiendo informacion de CPU"
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t: -k7 > lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+echo "tcpdump" > comando_dump_net
+echo "Buscar el comando con: man tcpdump" >> comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat <<EOL >> README.md
+Alumno: Tu-Nombre
+División: Tu-División
+Turno: Turno
+EOL
+
+sed -i '/Alumno: Tu-Nombre/d' README.md
+sed -i '/División: Tu-División/d' README.md
+sed -i '/Turno: Turno/d' README.md
+cat <<EOL >> README.md
+Alumno: Franco Romero
+División: 316
+Turno: TN
+EOL
+
+git add README.md
+git commit -m "docs: Subimos el README con los datos del alumno"
+history -a
+ll
+pwd
+cd /home/
+ll
+cd //home/vagrant/repogit/e-TP_AySO
+ll
+history -a
