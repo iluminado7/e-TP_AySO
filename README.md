@@ -1,2 +1,5 @@
 # e-TP_AySO
 TRABAJO PRACTICO DE ARQUITECTURA. FRANCO ROMERO DIV 316
+Alumno: Franco Romero
+División: 316
+Turno: TN
